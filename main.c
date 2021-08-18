@@ -113,9 +113,12 @@ int main()
             inserisciMetrica(g, c);
         }//fine AggiungiGrafo
 
+
         else if (inputLine[0] == 'T')//svolgo TopK
         {
-            stampaClassifica(c, 1);
+            int nessunGrafo = c->prossimoIndice-1; //se nessunGrafo minore di 0 vuol dire che non è stato aggiunto
+            if (nessunGrafo < 0) printf("\n");     //nessun grafo e le TopK dovranno stampare un accapo.
+            else stampaClassifica(c, 1);
         }//fine TopK
 
     } // fine while
