@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="100%" src="https://i.imgur.com/tm9mSuM.png" alt="header" />
+</p>
+
 # GraphRanker-API-2020-21
 ## Computer Science Algorithms and Principles Project, PoliMi A.A. 2020/21
 
